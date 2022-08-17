@@ -51,7 +51,7 @@ class MusicPlayer(object):
 	    scrol_y.config(command=self.playlist.yview)
 	    self.playlist.pack(fill=BOTH)
 	    # Changing Directory for fetching Songs
-	    os.chdir(r"PATH DIRECTORY")
+	    os.chdir(r"F:\Sorting Visualiser\New folder\Python-Projects\Music Application\OSTS")
 	    # Fetching Songs
 	    songtracks = os.listdir()
 	    # Inserting Songs into Playlist
